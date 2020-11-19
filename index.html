@@ -1,0 +1,246 @@
+<!doctype html >
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> 
+<html class="no-js" lang="en"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8"><!-- All the relevant information to access the necessary files - CSS, JS, AJAX, BOOTSTRAP, JQUERY allowing for functionality. Grouped into paragraphs to make it easier to spot -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Bristol Film Festival</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/mymain.css"><!--css and js links-->
+        <script src="js/myjs.js"></script>
+
+
+        <!--Carousel needs this -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+
+        <!--link to google fonts css -->
+        <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div class="header-container"><!-- holds the information on the page-->
+            <header class="wrapper clearfix">
+                <h1 class="title"><img src="img/colour_logo.png" alt="Oscars Logo in Pink"></h1><!--logo in top left corner-->
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li><!-- nav-->
+                        <li><a href="schedule.html">Schedule</a></li>
+                        <li><a href="tickets.html">Tickets</a></li>
+                        <li><a href="Gallery/demo.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="find.html">Find Us</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+
+         <div class ="jumbotron col-lg-12 col-md-12 col-sm-12 col-xs-12 slideanim slide"><!--jumbotron - displays this image - big!-->
+                <img src="img/OscarsTitle.jpg" alt="The title -OScars in gold with a silhouette of the actual award">
+                
+         </div><!-- end jumbotron-->
+
+         <div class="container" id="jumbo_text"> <!-- jumbotron text overlay-->
+             <div class="row">
+                The Bristol<!--displays this text over the image-->
+
+             </div>
+
+            
+         </div> <!-- end jumbotron text overlay-->
+
+        <div class="main-container">
+            <div class="main wrapper clearfix">
+
+
+
+            <section class="col-lg-12 col-md-12 col-sm-12 col-xs-12 slideanim slide"> <!-- about us . Grid layout to make responsive. -->
+                <div class="wrapper">
+                    <div class="about_left"><!-- this section is on the left but aligned to the right to add style-->
+                        <h2>About</h2>
+                        <p>Bristol Oscars Celebration is a one day film festival all about celebrating the newest and best films of the past year. Come and celebrate with us by watching Oscar winning films all day long! With a range of films from all of the different winners categories there is something for the whole family. So come and kick back and relax with us! </p>
+                    </div>
+
+                    <div class="about_right">
+                        <p>The film festival is set in the heart of Bristol, surrounded by the beauty and charm of the docks at the Watershed. The Watershed is a brilliant venue choice for our Oscars celebration as it has <b>three state of the art </b> cinema rooms, with plenty of comfy seating.
+
+                        Being on the docks means that you can stretch your legs between screenings whilst taking in some of the culture and beauty that Bristol has to offer. Enjoy a leisurly stroll in the sunshine (British weather permitting!) whilst admiring some of the historical artchitecture, or sit and chat at one of the many food and drink venues on the harbour side.</p>
+                        <h2>Us</h2>
+                    </div>
+
+                </div>
+
+            </section>
+
+
+
+
+
+
+            <section class="col-lg-12 col-md-12 col-sm-12 col-xs-12"><h3 class="find_us_title">Watch related videos</h3> <!-- videos -->
+            
+                 <!--carousel -->
+                 <div class="container slideanim slide">
+                  <br>
+                  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                      <li data-target="#myCarousel" data-slide-to="0" class="active"></li> <!--sets up the carousel, this shows there are 4 elements included-->
+                      <li data-target="#myCarousel" data-slide-to="1"></li>
+                      <li data-target="#myCarousel" data-slide-to="2"></li>
+                      
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <!--<div class="sound_buttons">
+                      <button onclick="enableMute()" type="button">Mute sound</button>
+                      <button onclick="disableMute()" type="button">Enable sound</button>
+                    </div>-->
+                    
+                    <div class="carousel-inner" role="listbox"><!-- link to bootstrap class carousel-->
+                      
+
+                      <div class="item active">
+                      
+                        <video controls><!-- all the videos that are included in the carousel, they all have controls so as to not autoplay and confuse users with multiple sounds playing-->
+                        
+                          <source src="videos/Monologue.mp4" type="video/mp4">
+                        </video>
+                      </div>
+                    
+                      
+
+                      <div class="item">
+                        <video controls>
+                          <source src="videos/MeanTweets.mp4" type="video/mp4">
+                        </video>
+                      </div>
+
+                      <div class="item">
+                        <video controls>
+                          <source src="videos/FunniestJokes.mp4" type="video/mp4">
+                        </video>
+                      </div>
+                    </div>
+
+                    <!-- Left and right controls for the carousel-->
+                    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+                </div>
+
+                 
+
+
+
+                 
+
+
+
+
+
+
+                 
+
+
+
+
+
+                 
+
+
+            </section>
+
+            
+
+
+
+
+
+
+
+
+
+
+            <section class="rss_section"><!--links to a rss widget that has two custom rss feeds -->
+
+            <div class="rss_text col-lg-6 col-md-6 col-sm-6 col-xs-6"><!-- grid system to make responsive-->
+            <h3 class="find_us_title ">Catch up on live news</h3><p>
+              Check out live up to minute news about other award ceremony news and the top 10 movies of this week. Keep yourself up to date with all the film buff news and become a film expert just in time for the fun you'll have at the Bristol Oscars Celebration! 
+            </p></div>
+            <div class="rss col-lg-6 col-md-6 col-sm-6 col-xs-6">
+               <!-- start feedwind code --> <script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" data-fw-param="18284/"></script> <!-- end feedwind code -->
+            </div>
+
+            </section>
+
+
+
+
+
+
+            </div> <!-- #main -->
+        </div> <!-- #main-container -->
+
+        <div class="footer-container "><!--footer-->
+            <footer class="wrapper">
+                
+               <div>
+               	<h3><a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Faimeeholdsworth.panel.uwe.ac.uk%2Ffilm_festival%2Findex.html">Validation</a></h3>
+               </div>
+                  
+
+                  <div class="grayscale social_buttons"><!--social buttons are coloured when hovered over-->
+                    <h4>Follow Us</h4>
+                    <a href="http://www.facebook.com" class="grayscale social_buttons"><img src="img/Social/facebook.png" alt="Facebook Social Image"></a>
+
+                    
+
+                     <a href="http://www.twitter.com" class="grayscale social_buttons"><img src="img/Social/twitter.png" alt="Twitter Social Image"></a>
+
+                  </div>
+                
+            </footer>
+        </div>
+
+       
+                  
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script><!--links to javascript library-->
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+        </script>
+    </body>
+</html>

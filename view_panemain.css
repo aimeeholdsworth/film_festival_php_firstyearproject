@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+body{
+	
+	height:100%;
+}
+
+html{
+	font-family:'Pacifico', cursive;
+	height:100%;
+}
+
+#catViewer{
+	height:65%;
+	width:95%;
+	text-align:center;
+	border:5px solid #565656;
+	margin-top:50px;
+	margin-bottom: 50px;
+
+}
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    
+}
+
+#catalogue{
+	float:left;
+	width:50%;
+	height:100%;
+	box-sizing:border-box;
+	overflow:auto;
+}
+
+.catItem1{
+	height:70%;
+	padding:0.8em;
+	cursor:pointer;
+	overflow: auto;
+	background-color:#d2cbc1;
+	font-size:50px;
+}
+
+.catItem2{
+	height:70%;
+	padding:0.8em;
+	cursor:pointer;
+	overflow: auto;
+	background-color:#d4af37;
+	font-size:50px;
+}
+
+.briefInfo{
+	height:30%;
+	width:90%;
+	text-align:center;
+	overflow: visible;
+	
+}
+
+#viewPane{
+	float:left;
+	width:50%;
+	height:100%;
+	box-sizing:border-box;
+	padding:10px;
+	font-size: 23px;
+}
+
+.briefInfo > img{
+	height:200px;
+}
+
+
+.filmtitle{
+	font-size:67px !important;
+	font-family:'Pacifico', cursive !important;
+	float:none !important;
+	padding-bottom: 20px; 
+
+	
+}
+
+.time{
+	font-size:47px !important;
+	font-family:'Pacifico', cursive !important;
+	float: none !important;
+	padding-bottom: 20px; 
+	
+}
+
+
+#item1 > h3{
+	font-size: 70px;
+}
+
+

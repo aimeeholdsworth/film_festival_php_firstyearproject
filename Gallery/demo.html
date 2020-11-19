@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Film Festival Gallery </title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script src="photo-gallery.js"></script>
+
+    <link rel="stylesheet" href="normalize.min.css">
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" type="text/css" href="mymain.css">
+
+
+    <!--link to google fonts css -->
+        <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+  </head>
+
+  <body>   
+<div class="header-container">
+            <header class="wrapper clearfix">
+                <h1><img src="../img/colour_logo.png" alt="Oscars Logo in Pink"></h1>
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../schedule.html">Schedule</a></li>
+                        <li><a href="../tickets.html">Tickets</a></li>
+                        <li><a href="demo.html">Gallery</a></li>
+                        <li><a href="../contact.html">Contact Us</a></li>
+                        <li><a href="../find.html">Find Us</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+
+    <div class="container">    
+        <div class="row">
+            <h2 class="find_us_title">Check out the gallery below!</h2>
+        
+        </div>
+        
+        <ul class="row">
+            <li class="col-lg-2 col-md-2 col-sm-6 col-xs-12">
+                <img class="img-responsive" src="images/bristol_docks.jpg" alt="Photograph of Bristol Docks" data-title="Bristol Docks">
+            </li>
+            <li class="col-lg-2 col-md-2 col-sm-6 col-xs-12">
+                <img class="img-responsive" src="images/coktails.jpg" alt="A picture of a cocktail. Available at the festival" data-title="There is a range of food and drinks available at the festival">
+            </li>
+            <li class="col-lg-2 col-md-2 col-sm-6 col-xs-12">
+                <img class="img-responsive" src="images/decorations2.jpg" alt="Photograph of some of the decorations at the venue" data-title="Decorations for the venue">
+            </li>
+            <li class="col-lg-2 col-md-2 col-sm-6 col-xs-12">
+                <img class="img-responsive" src="images/docks_night.jpg" alt="Photograph of Bristol Docks at night" data-title="Bristol Docks at night">
+            </li>
+            <li class="col-lg-2 col-md-2 col-sm-6 col-xs-12">
+                <img class="img-responsive" src="images/cupcakes.jpeg" alt="A picture of some of the tasty snacks on offer at the event - Cupcakes" data-title="A picture of some of the tasty snacks on offer at the event">
+            </li>
+            <li class="col-lg-2 col-md-2 col-sm-6 col-xs-12">
+                <img class="img-responsive" src="images/decorations.jpg" alt="Photograph of some of the decorations at the venue" data-title="Photograph of some of the decorations at the venue">
+            </li>
+            
+
+            <li class="col-lg-2 col-md-2 col-sm-6 col-xs-12">
+                <img class="img-responsive" src="images/watershed_cafe.jpg" alt="Photo of the cafe at the Watershed" data-title="Photo of the cafe at the Watershed">
+            </li>
+            <li class="col-lg-2 col-md-2 col-sm-6 col-xs-12">
+                <img class="img-responsive" src="images/watershed_front.jpg" alt="Photo of the front of the watershed" data-title="Photo of the front of the watershed">
+            </li>
+            <li class="col-lg-2 col-md-2 col-sm-6 col-xs-12">
+                <img class="img-responsive" src="images/popcorn.jpg" alt="A picture of some of the tasty snacks on offer at the event - Popcorn" data-title="A picture of some of the tasty snacks on offer at the event">
+            </li>
+            <li class="col-lg-2 col-md-2 col-sm-6 col-xs-12">
+                <img class="img-responsive" src="images/the_oscars.jpg" alt="An image of the title - The Oscars" data-title="The Oscars title">
+            </li>
+            <li class="col-lg-2 col-md-2 col-sm-6 col-xs-12">
+                <img class="img-responsive" src="images/oscar_night.png" alt="Decorations for the oscars - wine and snacks on a table" data-title="Decorations for the oscars - wine and snacks on a table">
+            </li>
+            <li class="col-lg-2 col-md-2 col-sm-6 col-xs-12">
+                <img class="img-responsive" src="images/oscar.jpg" alt="The oscar statuette" data-title="The official oscar statuette" >
+                
+
+            </li>
+            
+          </ul>             
+    </div> <!-- /container -->
+    
+     
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-label="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content"> 
+
+        <div class="modal-header">
+
+            <button type="button" class="close" data-dismiss="modal">×</button>
+            <h4 class="modal-title">Image Preview</h4>
+        </div>        
+          <div class="modal-body">
+                         
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+
+    <div class="footer-container col-lg-12 col-md-12 col-sm-12 col-x6-12">
+            <footer class="wrapper">
+            
+            	<div>
+                    <h3><a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Faimeeholdsworth.panel.uwe.ac.uk%2Ffilm_festival%2Ffind.html">Validation</a></h3>
+                  </div>
+                
+               
+                  
+
+                  <div class="grayscale social_buttons">
+                    <h4>Follow Us</h4>
+                    <a href="www.facebook.com" class="grayscale social_buttons"><img src="../img/Social/facebook.png" alt="Facebook Social Image"></a>
+
+                    
+
+                     <a href="www.twitter.com" class="grayscale social_buttons"><img src="../img/Social/twitter.png" alt="Twitter Social Image"></a>
+
+                  </div>
+                
+            </footer>
+        </div>
+    
+  </body>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+  $(".img-responsive").on("click", function() {
+   var src = $(this).find("img.img-responsive").attr('src');
+   var title = $(this).attr("data-title");
+   var paragraph = $(this).attr("data-caption"); 
+   console.log(paragraph);
+   console.log(title);
+   $(".caption-text").html(paragraph);
+   $(".modal-title").html(title);
+   $("#imagepreview").attr("src", src);
+    //  when the user clicks the modal window appears 
+   $('#imagemodal').modal('show'); 
+});
+
+</script>
+
+  <style>
+      ul {         
+          padding:0 0 0 0;
+          margin:0 0 0 0;
+      }
+      ul li {     
+          list-style:none;
+          margin-bottom:25px;           
+      }
+      ul>li>img {
+          cursor: pointer;
+
+      }
+
+      body > div.container > ul > li > img{
+        height:205px;
+      }
+
+
+      .modal-body {
+          padding:5px !important;
+      }
+      .modal-content {
+          border-radius:0;
+      }
+      .modal-dialog img {
+          text-align:center;
+          margin:0 auto;
+      }
+    .controls{          
+        width:50px;
+        display:block;
+        font-size:11px;
+        padding-top:8px;
+        font-weight:bold;          
+    }
+    .next {
+        float:right;
+        text-align:right;
+    }
+      /*override modal for demo only*/
+      .modal-dialog {
+          max-width:500px;
+          padding-top: 90px;
+      }
+      @media screen and (min-width: 768px){
+          .modal-dialog {
+              width:500px;
+              padding-top: 90px;
+          }          
+      }
+     
+  </style>
+
+  
+</html>
